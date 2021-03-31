@@ -9,6 +9,14 @@ This repository has a patched login form for Horizon, a Horizon authentication p
 
 **This code was tested for OpenStack stable/train deployed using Kolla-Ansible and Kolla containers, but it should work for other versions of OpenStack and other types of OpenStack deployments.**
 
+## How to setup Multi-factor Authentication with OpenStack Identity (Keystone) service
+
+Keystone has documentation on how to setup Multi-factor authentication (MFA) and time-based one-time passwords (TOTP).
+
+Refer to [the documentation on setting up MFA for instructions on how to setup MFA for an individual user](https://docs.openstack.org/keystone/latest/admin/multi-factor-authentication.html#multi-factor-authentication).
+
+Refer to [the documentation on setting up a TOTP for instructions on how to setup a TOTP for an individual user](https://docs.openstack.org/keystone/latest/admin/auth-totp.html).
+
 ## How to patch Horizon
 
 ### Login to the Kolla Horizon Docker container
